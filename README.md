@@ -1,2 +1,2 @@
 # Random-Quote-Machine
-current live page at: <a>quotemachine.aywin.uk </a>
+current live page at: https://quotemachine.aywin.uk/
