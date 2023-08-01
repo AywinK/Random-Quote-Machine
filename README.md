@@ -37,7 +37,7 @@ npm start
 ```
     
 
-![Demo](.)
+![Demo](./demo.gif)
 
 ## License
 
