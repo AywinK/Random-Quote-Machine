@@ -1,0 +1,123 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* variables */
+
+:root {
+  --primary-white: rgb(216, 211, 219);
+  --primary-blue: rgb(36, 149, 224);
+  --secondary-white: rgb(162, 151, 165);
+  --secondary-purple: rgb(241, 196, 241);
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Styles */
+
+body {
+  color: var(--secondary-purple);
+  background-color:darkslateblue;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  border: 4px solid var(--primary-white);
+  margin: 50% 10px;
+  padding: 10px;
+  width: min(calc(100vw - 20px), 500px);
+  border-radius: 20px;
+  background-color: var(--secondary-white);
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text::before {
+  display: block;
+  margin-left: -10px;
+  margin-bottom: -1ch;
+  text-align: start;
+  font-size: 4em;
+}
+
+#text::after {
+  content: none;
+}
+
+#text {
+  font-size: x-large;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#author {
+  align-self: flex-end;
+  font-weight: 700;
+}
+
+#author::before {
+  content: "- ";
+}
+
+#tweet-quote {
+  align-self: flex-start;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--primary-white);
+  color: var(--primary-blue);
+
+
+  >* {
+    transition: transform 600ms ease-in-out;
+    transform: rotate(22deg);
+  }
+}
+
+#tweet-quote:hover {
+  animation-timing-function: ease-in-out;
+  filter: saturate(500%);
+
+  >* {
+    transform: scale(1.03);
+    transform: rotate(5deg);
+  }
+}
+
+#new-quote {
+  margin: 25px auto 35px;
+  padding: 8px;
+  border-radius: 16px;
+  font-weight: 900;
+  background-color: var(--secondary-purple);
+  color: var(--secondary-white);
+  border: 0.3rem solid var(--primary-white);
+  font-size: 1.3em;
+  cursor: pointer;
+  transition-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  width: 75%;
+}
+
+#new-quote:hover {
+  filter: hue-rotate(-30deg);
+    transform: scale(1.05);
+}
