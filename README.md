@@ -1,7 +1,7 @@
 
 # Random Quote Machine
 
-![License Badge](https://img.shields.io/badge/License-MIT-green?labelColor=434343)
+![License Badge](https://img.shields.io/badge/License-MIT-green?labelColor=434343) [![Netlify Status](https://api.netlify.com/api/v1/badges/b1789603-395d-4e85-87d9-febc945a43b3/deploy-status)](https://app.netlify.com/sites/neon-pudding-48aa0e/deploys)
 
 ## Description
 
