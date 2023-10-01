@@ -64,6 +64,7 @@ This is my solution to the first project for the freeCodeCamp Front-End Developm
 
 freeCodeCamp test suite can be ran on the project by selecting "Random Quote Machine" option from the dropdown menu either locally or on the live deployed page.
 
+![Test Demo](./test demo.gif)
 
 
 ## Questions
