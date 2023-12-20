@@ -58,7 +58,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Contributing
 
-This is my solution to the first project for the freeCodeCamp Front-End Development Libraries Certification. Feel free to fork the project to view how I hae completed the project. If you would like to share any cool features that could be implemented, feel free to send a pull request.
+This is my solution to the first project for the freeCodeCamp Front-End Development Libraries Certification. Feel free to fork the project to view how I have completed the project. If you would like to share any cool features that could be implemented, feel free to send a pull request.
 
 ## Tests
 
